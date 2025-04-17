@@ -26,7 +26,7 @@ class ExtendedGroup(MyGroup):
     def _protected_method(self):
         return "Це захищений метод. Він для внутрішнього використання."
 
-person = ExtendedGroup("Станіслав", "Джигархвнов", 2007, "фуррі", "Україна", "Луцьку")
+person = ExtendedGroup("Станіслав", "Джигарханов", 2007, "фуррі", "Україна", "Луцьку")
 print(person.calculate_year())
 print(person.get_info())
 print(person.get_full_description())
